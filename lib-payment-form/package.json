@@ -1,0 +1,42 @@
+{
+	"name": "@2kara/form-payment",
+	"version": "1.0.3",
+	"description": "lib for payment form",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx tsc -p ."
+	},
+	"keywords": [
+		"react",
+		"typescript",
+		"payment",
+		"form",
+		"@2kara"
+	],
+	"author": "yandre13 <yandre13.elsf@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^14.0.5",
+		"@types/react": "^16.9.35",
+		"@types/react-dom": "^16.9.8",
+		"@types/react-transition-group": "^4.4.0",
+		"@types/styled-components": "^5.1.0",
+		"react": "^16.13.1",
+		"react-transition-group": "^4.4.1",
+		"rollup": "^2.10.9",
+		"rollup-plugin-typescript2": "^0.27.1",
+		"styled-components": "^5.1.1",
+		"typescript": "^3.9.3"
+	},
+	"peerDependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"styled-components": "^5.1.0",
+		"react-transition-group": "^4.4.0"
+	},
+	"files": [
+		"lib"
+	]
+}
