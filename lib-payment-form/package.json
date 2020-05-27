@@ -1,12 +1,12 @@
 {
 	"name": "@2kara/form-payment",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "lib for payment form",
 	"main": "lib/index.js",
 	"types": "lib/index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "npx tsc -p ."
+		"build": "rollup -c"
 	},
 	"keywords": [
 		"react",
